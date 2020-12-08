@@ -66,7 +66,7 @@ Once you labeled the images you need to move them to `person_detection_logistic_
 
 We need to create a `HDF5` file to train our neural network. To do this we need to go at the file in `person_detection_logistic_regression/ai_backend/utils/dataset_h5_creator.py` and run it. But first we need to update the `name` variable with the name we use to label our image object dataset, in our case was` person`.
 
-## Run project
+### Run project
 
 Finally just run the project.
 
