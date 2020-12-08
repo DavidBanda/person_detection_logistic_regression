@@ -6,14 +6,11 @@ Project to detect pedestrian from a video using logistic regression with neural 
 
 you have to have previously installed
 
-
 [Python 3.7](www.python.org)
 
 [Pip 3](https://pip.pypa.io/en/stable/installing/)
 
 ## Requierements
-
-You have to create a virtualenv
 
 [Virtual Enviroment](https://docs.python.org/3/tutorial/venv.html)
 
@@ -22,3 +19,33 @@ You have to create a virtualenv
 ```bash
 git clone https://github.com/DavidBanda/person_detection_logistic_regression
 ```
+
+```bash
+python3 -m venv person_detection_logistic_regression
+```
+
+```bash
+person_detection_logistic_regression\Scripts\activate.bat
+```
+
+```bash
+cd person_detection_logistic_regression
+```
+
+```bash
+pip3 install -r requirements.txt
+```
+
+## Run project
+
+```bash
+python run.py
+```
+
+```bash
+You can access it opening
+```
+
+![alt text](https://github.com/DavidBanda/person_detection_logistic_regression/blob/main/index.html)
+
+
