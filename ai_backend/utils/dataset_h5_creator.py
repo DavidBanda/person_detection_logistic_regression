@@ -7,7 +7,7 @@ import numpy as np
 #  ------------------- first part: prepare data -------------------
 shuffle_data = True
 
-hdf5_path = '../static/dataset/train_personvnonperson.hdf5'  # path to hdf5 file
+hdf5_path = '../static/dataset/train_object.hdf5'  # path to hdf5 file
 
 # path to the images to train/test
 person_nonperson_path = '../static/images/object_dataset/*.jpg'
