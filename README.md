@@ -46,4 +46,6 @@ python run.py
 
 [index.html](https://github.com/DavidBanda/person_detection_logistic_regression/blob/main/index.html)
 
+#### You need to write down in the text field a path to a video to your local machine
 
+![alt text](https://github.com/DavidBanda/person_detection_logistic_regression/blob/main/prevs/path.png)
