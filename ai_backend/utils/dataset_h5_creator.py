@@ -66,7 +66,7 @@ for i in range(len(train_addrs)):
     addr = train_addrs[i]
     img = cv2.imread(addr)
     # resize to (64,64)
-    img = cv2.resize(img, (128, 128), interpolation=cv2.INTER_CUBIC)
+    img = cv2.resize(img, (128, 128), interpolation=cv2.INTER_AREA)
     # cv2 load images as BGR, convert it to RGB
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     f["train_set_x"][i, ...] = img[None]
@@ -79,7 +79,7 @@ for i in range(len(test_addrs)):
 
     addr = test_addrs[i]
     img = cv2.imread(addr)
-    img = cv2.resize(img, (128, 128), interpolation=cv2.INTER_CUBIC)
+    img = cv2.resize(img, (128, 128), interpolation=cv2.INTER_AREA)
     img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
     f["test_set_x"][i, ...] = img[None]
 
