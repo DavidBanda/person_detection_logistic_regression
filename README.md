@@ -42,9 +42,7 @@ pip3 install -r requirements.txt
 python run.py
 ```
 
-You can access it opening in your browser
-
-[index.html](https://github.com/DavidBanda/person_detection_logistic_regression/blob/main/index.html)
+You can access it opening in your browser [index.html](https://github.com/DavidBanda/person_detection_logistic_regression/blob/main/index.html)
 
 You need to write down in the text field an absolute path to a video to your local machine, you can use the videos that are in the project: person_detection_logistic_regression/ai_backend/static/video
 
