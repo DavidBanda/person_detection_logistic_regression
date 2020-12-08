@@ -5,10 +5,10 @@ import os
 def main():
 
     path = '/Users/davidbanda/Desktop/Object/'
-    countStart = 808
+    name = 'obj'
 
     for count, filename in enumerate(os.listdir(path)):
-        dst = "obj" + str(count+countStart) + ".jpg"
+        dst = name + str(count) + ".jpg"
         src = path + filename
         dst = path + dst
 
