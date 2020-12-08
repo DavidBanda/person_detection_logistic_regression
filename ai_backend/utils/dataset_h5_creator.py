@@ -8,13 +8,12 @@ import numpy as np
 shuffle_data = True
 
 hdf5_path = '../static/dataset/train_object.hdf5'  # path to hdf5 file
-
+name = 'person'
 # path to the images to train/test
 person_nonperson_path = '../static/images/object_dataset/*.jpg'
 
 addrs = glob.glob(person_nonperson_path)  # get path to each image
-start_idx_filename = 35
-labels = [1 if 'person' in addr[start_idx_filename:] else 0 for addr in addrs]  # label each image
+labels = [1 if name in addr else 0 for addr in addrs]  # label each image
 print(f'total img: {len(labels)}')
 
 if shuffle_data:
