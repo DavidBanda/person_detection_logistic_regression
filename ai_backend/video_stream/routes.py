@@ -11,11 +11,11 @@ def gen_frame(camera):
         jpeg, frame = camera.get_frame()
 
         if int(predict.predict_image(frame)) == 1:
-            label_image = 'Persona detectada'
+            label_image = 'Pedestrian detected'
             color = (31, 31, 234)
         else:
             color = (23, 211, 23)
-            label_image = 'Persona no detectada'
+            label_image = 'Pedestrian not detected'
         # print(predict.predict_image(frame))
 
         # process and add text to the image
