@@ -42,10 +42,8 @@ pip3 install -r requirements.txt
 python run.py
 ```
 
-```bash
-You can access it opening
-```
+#### You can access it opening 
 
-![alt text](https://github.com/DavidBanda/person_detection_logistic_regression/blob/main/index.html)
+[index.html](https://github.com/DavidBanda/person_detection_logistic_regression/blob/main/index.html)
 
 
