@@ -42,7 +42,7 @@ pip3 install -r requirements.txt
 python run.py
 ```
 
-#### You can access it opening 
+#### You can access it opening in your browser
 
 [index.html](https://github.com/DavidBanda/person_detection_logistic_regression/blob/main/index.html)
 
