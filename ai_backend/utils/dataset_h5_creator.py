@@ -10,7 +10,7 @@ shuffle_data = True
 hdf5_path = '../static/dataset/train_personvnonperson.hdf5'  # path to hdf5 file
 
 # path to the images to train/test
-person_nonperson_path = '../static/images/persons_nonpersons/*.jpg'
+person_nonperson_path = '../static/images/object_dataset/*.jpg'
 
 addrs = glob.glob(person_nonperson_path)  # get path to each image
 start_idx_filename = 35
